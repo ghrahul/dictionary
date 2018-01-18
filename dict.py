@@ -12,7 +12,10 @@ def dict(q):
         print("The meaning of the word is:\n ")
         for item in data[q]:
             print(item)
-
+    elif q.upper() in data:
+        print("The meaning of the word is:\n ")
+        for item in data[q.upper()]:
+            print(item)
     elif m in data:
         answ =input("do you want to search this?y/n "+ m +" \n")
         if answ=="y":
