@@ -1,2 +1,2 @@
 # dictionary
-This is dictionary which gives the meaning of english words.
+This is an English to English dictionary.
